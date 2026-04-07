@@ -32,7 +32,7 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <modalityUseMode>UseWithWarnings</modalityUseMode>
+  <modalityUseMode>DontUse</modalityUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.27</compatibilityMode>
   <languages uuid="afa2d775-5c7a-447e-9af2-7bd236af28ac">
@@ -45,6 +45,7 @@
   </languages>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.Страж</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
@@ -777,6 +778,8 @@
   <catalogs>Catalog.РассылкиОтчетов</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
+  <catalogs>Catalog.Кластеры</catalogs>
+  <catalogs>Catalog.Аккаунты</catalogs>
   <enums>Enum.ВариантыПериода</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
@@ -798,6 +801,8 @@
   <enums>Enum.ТипыТекстовЭлектронныхПисем</enums>
   <enums>Enum.ФорматыВыгрузкиОбъектов</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
+  <enums>Enum.ВидыХраненияАккаунтов</enums>
+  <enums>Enum.ТипыАккаунтов</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.КонтрольРассылкиОтчетов</reports>
   <reports>Report.ПользователиПоПодразделениям</reports>

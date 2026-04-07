@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="370c3c2f-ade7-4996-8049-af8fd2370c98">
+  <producedTypes>
+    <objectType typeId="1d2ad833-0ef7-4827-bd8b-beee707cc1b5" valueTypeId="c65352df-8dd0-41cb-8ef6-a91800da97ed"/>
+    <refType typeId="3ce34167-4d9c-4f3f-804a-11ebca3445c7" valueTypeId="103bab3d-12d1-461b-96e7-2bdded70346c"/>
+    <selectionType typeId="171b9a66-5d73-4e0e-8093-105f3ab4dbca" valueTypeId="9ced111f-b8b4-472e-a358-686fef180ba2"/>
+    <listType typeId="21f7422e-aff7-4bab-9c88-4b68990afa73" valueTypeId="af2c978e-6cf5-4e25-a3a1-f14c05468107"/>
+    <managerType typeId="24fdd70a-beaf-4ada-a0b0-18057db1140f" valueTypeId="b799dcad-2a79-4850-a979-65847bc72dc8"/>
+  </producedTypes>
+  <name>Кластеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кластеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Кластеры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Кластеры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Кластеры.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="b62ebfdf-eaee-44ef-8bb3-bca8be913054">
+    <name>АдресRAS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес RAS</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7f17bcbc-9a77-4e45-ac07-8aabde1dad68">
+    <name>ВидХраненияАккаунта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид хранения аккаунта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыХраненияАккаунтов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1251d76-f240-4ec1-86f3-d163ceb8321b">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cd01d294-b99a-40d5-b5e0-407ff2d41ef4">
+    <name>Аккаунт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аккаунт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аккаунты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1bfb261f-9cb8-4627-b69d-9985e0d2f3c0">
+    <name>ПортRAS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт RAS</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="664566bd-8568-4f73-b8eb-e30602c5546c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

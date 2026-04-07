@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7fe3803-7fd9-4131-972c-11579a654a14">
+  <producedTypes>
+    <refType typeId="16f5ad80-19c2-415a-b5f9-afa57d9c840d" valueTypeId="6dcf04b3-afd4-4485-9f76-e006e1a290e0"/>
+    <listType typeId="1d2ae45c-8ba3-4e49-ae11-2690c6dfcf03" valueTypeId="59aedf46-6b41-43ca-81bb-430decdb6b49"/>
+    <managerType typeId="24ae9ef0-b8db-4c56-8ac9-9599f896a567" valueTypeId="c2380f6a-630c-4ec9-9116-3b66e8c062ff"/>
+  </producedTypes>
+  <name>ВидыХраненияАккаунтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды хранения аккаунтов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d0dd48d0-95b0-4685-8133-cf8090559ae4">
+    <name>ЛогинПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин пароль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d741a21f-8de0-4775-8205-a55f4a70757a">
+    <name>ОбщийАккаунт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий аккаунт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

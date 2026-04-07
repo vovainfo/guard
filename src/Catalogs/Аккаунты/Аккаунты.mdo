@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5a44e9c-d0e1-4302-b1d0-002f990c5a79">
+  <producedTypes>
+    <objectType typeId="f4e3057a-bb7e-4fa8-bf6b-1772b04dc949" valueTypeId="c0318979-fda9-4962-8409-496d16722fff"/>
+    <refType typeId="447c0d51-6d82-476c-a44a-f11bc2b8b7d6" valueTypeId="a18b8388-3b1b-4879-8b1f-d39a0d48cfdc"/>
+    <selectionType typeId="49f74dad-30d2-4c20-b71b-eae0fa269a34" valueTypeId="588544b2-5a9c-4f7d-a9d7-128bb6a3cc60"/>
+    <listType typeId="18886b7e-1aca-444a-8f07-846afcf8c188" valueTypeId="9563eb16-6dc8-4aef-b821-aac5ba6ecfc7"/>
+    <managerType typeId="873c09df-d1dc-4c39-a6f7-aa83e0dea4f4" valueTypeId="d79094d8-d220-4fb5-b62d-8a5831b7760e"/>
+  </producedTypes>
+  <name>Аккаунты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аккаунты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аккаунты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Аккаунты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bc6bda16-0a81-4e77-8a71-544f90a15981">
+    <name>ТипАккаунта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип аккаунта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыАккаунтов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4664bb6d-009a-412f-8166-0dc1ff86464f">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

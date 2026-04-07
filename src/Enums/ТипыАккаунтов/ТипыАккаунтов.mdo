@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13eb1c06-a0da-496f-b4b0-167b30415602">
+  <producedTypes>
+    <refType typeId="020bf79a-cdaf-4ecf-85bf-1e315abbe075" valueTypeId="076dc413-46c3-4697-bdf1-0cab8631a246"/>
+    <listType typeId="079d22dd-e9d0-444e-b287-9af932bfd2af" valueTypeId="3dc5b431-406e-48d1-a363-3b0602ae428e"/>
+    <managerType typeId="b2f04d8f-ee44-4ce9-96ad-bb9fd42eda26" valueTypeId="452ad5be-3b8a-4fd7-925c-214c9ded0968"/>
+  </producedTypes>
+  <name>ТипыАккаунтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы аккаунтов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="84fe600b-5e2b-4a52-9601-3390b1f97831">
+    <name>АдминКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Админ кластера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d77d22e2-a28d-41d5-99b9-44a82a392781">
+    <name>АдминБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Админ базы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
