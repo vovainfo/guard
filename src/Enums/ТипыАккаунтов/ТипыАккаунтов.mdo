@@ -26,4 +26,11 @@
       <value>Админ базы</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="2c129732-ced2-4dd3-9f26-47a80168a2ca">
+    <name>АдминСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Админ сервера</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

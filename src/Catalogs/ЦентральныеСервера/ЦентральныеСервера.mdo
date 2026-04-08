@@ -7,18 +7,22 @@
     <listType typeId="21f7422e-aff7-4bab-9c88-4b68990afa73" valueTypeId="af2c978e-6cf5-4e25-a3a1-f14c05468107"/>
     <managerType typeId="24fdd70a-beaf-4ada-a0b0-18057db1140f" valueTypeId="b799dcad-2a79-4850-a979-65847bc72dc8"/>
   </producedTypes>
-  <name>Кластеры</name>
+  <name>ЦентральныеСервера</name>
   <synonym>
     <key>ru</key>
-    <value>Кластеры</value>
+    <value>Центральные сервера</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Кластеры.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Кластеры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЦентральныеСервера.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЦентральныеСервера.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Центральный сервер</value>
+  </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -30,7 +34,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.Кластеры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultObjectForm>Catalog.ЦентральныеСервера.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="b62ebfdf-eaee-44ef-8bb3-bca8be913054">
     <name>АдресRAS</name>
     <synonym>
@@ -47,6 +51,24 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1bfb261f-9cb8-4627-b69d-9985e0d2f3c0">
+    <name>ПортRAS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт RAS</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -91,24 +113,6 @@
     </synonym>
     <type>
       <types>CatalogRef.Аккаунты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="1bfb261f-9cb8-4627-b69d-9985e0d2f3c0">
-    <name>ПортRAS</name>
-    <synonym>
-      <key>ru</key>
-      <value>Порт RAS</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>5</precision>
-      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

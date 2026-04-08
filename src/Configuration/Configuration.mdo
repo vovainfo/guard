@@ -778,7 +778,7 @@
   <catalogs>Catalog.РассылкиОтчетов</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
-  <catalogs>Catalog.Кластеры</catalogs>
+  <catalogs>Catalog.ЦентральныеСервера</catalogs>
   <catalogs>Catalog.Аккаунты</catalogs>
   <enums>Enum.ВариантыПериода</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>

@@ -8,7 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Аккаунты</content>
-  <content>Catalog.Кластеры</content>
+  <content>Catalog.ЦентральныеСервера</content>
   <content>Enum.ТипыАккаунтов</content>
   <content>Enum.ВидыХраненияАккаунтов</content>
 </mdclass:Subsystem>
