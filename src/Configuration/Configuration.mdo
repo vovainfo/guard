@@ -602,6 +602,7 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСтраж</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСтраж</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
