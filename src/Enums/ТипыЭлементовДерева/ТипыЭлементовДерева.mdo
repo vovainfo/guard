@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06d4cd13-4cfd-43a0-b15e-6df759b7f868">
+  <producedTypes>
+    <refType typeId="4bcf15d7-007c-47c1-ae54-bfe90fca9058" valueTypeId="540c98e1-ceba-499c-b3c3-2b378f25a01b"/>
+    <listType typeId="7d4bb224-9b50-4f25-a82e-4d27c9c03a70" valueTypeId="1ace4c2f-e828-485d-b639-0b0c810702e0"/>
+    <managerType typeId="980e873a-b6e1-47bd-866b-b86ee1663409" valueTypeId="9ca41407-1505-4c20-8098-06ad730bfff8"/>
+  </producedTypes>
+  <name>ТипыЭлементовДерева</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы элементов дерева</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d250dc34-aa72-4d79-98a6-556152ef4953">
+    <name>ЦентральныйСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Центральный сервер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c7da208-ae4d-48cb-94f6-b7f932b3e240">
+    <name>Кластер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кластер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc7e6933-75c1-46bd-b243-b9d9de29999b">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

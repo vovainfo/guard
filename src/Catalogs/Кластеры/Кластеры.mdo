@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d283dfa-f78a-4c7d-9312-8040edbcc5f3">
+  <producedTypes>
+    <objectType typeId="1d88e44a-fd41-4349-9591-2aadbaa27598" valueTypeId="807e40f8-c0c4-4077-a02a-aa6710dc6eb6"/>
+    <refType typeId="9979ae9f-c23b-466d-858b-76e4944808d8" valueTypeId="4da67064-7a6d-4057-b97f-d3cc5025b079"/>
+    <selectionType typeId="85ddfdcb-a104-4830-b52a-5e82b612111d" valueTypeId="f00c541c-e420-4ca7-8c41-ebb8f4c9952c"/>
+    <listType typeId="a8cec5c1-ddf4-416e-b5ce-407aa908ce1e" valueTypeId="137cae29-f1a5-45e5-b69c-5dbf536fd685"/>
+    <managerType typeId="b7cccbd0-a90d-477b-8dad-e013fd0171b1" valueTypeId="7e2fe7ef-63a8-49e4-9c3f-dc279224d7fa"/>
+  </producedTypes>
+  <name>Кластеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кластеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Кластеры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Кластеры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Кластер</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ЦентральныеСерверы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a6625780-7cf4-4b1a-bbec-a73c0cc12bdb">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a8a6a4b9-e1e4-4338-84a6-01a05dafc75d">
+    <name>ВидХраненияАккаунта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид хранения аккаунта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыХраненияАккаунтов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="806f306b-968c-48c3-8694-e065af600bcd">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ddee63e3-3213-4aaf-a48e-b444c4d8ebcd">
+    <name>Аккаунт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аккаунт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аккаунты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

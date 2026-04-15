@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16b6fa67-5ce3-4d39-9766-c999bd231935">
+  <producedTypes>
+    <objectType typeId="783ae6b7-38a2-4504-ab4f-40faf310adaa" valueTypeId="edd6a6f0-bfe6-4879-9273-eeb61654299b"/>
+    <managerType typeId="ccd069f9-8dad-48b1-8567-20be54a1581d" valueTypeId="b8d7f14f-5de4-4705-abf3-8657bf438f8f"/>
+  </producedTypes>
+  <name>ДеревоИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дерево ИБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДеревоИБ.Form.Форма</defaultForm>
+  <forms uuid="1f95bfdd-67fe-4058-8865-46ac06d2e990">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

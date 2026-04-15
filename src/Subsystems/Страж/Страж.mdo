@@ -8,7 +8,10 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Аккаунты</content>
-  <content>Catalog.ЦентральныеСервера</content>
+  <content>Catalog.ЦентральныеСерверы</content>
   <content>Enum.ТипыАккаунтов</content>
   <content>Enum.ВидыХраненияАккаунтов</content>
+  <content>Catalog.ИнформационныеБазы</content>
+  <content>Catalog.Кластеры</content>
+  <content>DataProcessor.ДеревоИБ</content>
 </mdclass:Subsystem>

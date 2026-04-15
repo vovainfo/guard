@@ -396,7 +396,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.ЦентральныеСервера</types>
+      <types>CatalogObject.ЦентральныеСерверы</types>
     </valueType>
     <view>
       <common>true</common>
