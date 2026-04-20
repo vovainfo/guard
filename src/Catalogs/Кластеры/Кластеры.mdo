@@ -103,6 +103,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="59ce7ba2-c2ff-44d8-a4fd-3fbc472a739a">
+    <name>Скрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрыть</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="553c2293-50fd-4bf9-b8bc-b7a53226fc6a">
     <name>ФормаЭлемента</name>
     <synonym>
