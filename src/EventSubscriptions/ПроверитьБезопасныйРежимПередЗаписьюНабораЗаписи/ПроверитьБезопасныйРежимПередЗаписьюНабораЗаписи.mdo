@@ -7,6 +7,9 @@
   </synonym>
   <comment>// АПК:1371</comment>
   <source>
+    <types>InformationRegisterRecordSet.ИспользуемыеВидыДоступа</types>
+    <types>InformationRegisterRecordSet.ИспользуемыеВидыДоступаПоТаблицам</types>
+    <types>InformationRegisterRecordSet.ЗначенияГруппДоступаПоУмолчанию</types>
     <types>InformationRegisterRecordSet.ВерсииПодсистем</types>
     <types>InformationRegisterRecordSet.ДанныеОбработанныеВЦентральномУзлеРИБ</types>
     <types>InformationRegisterRecordSet.НазначениеДополнительныхОбработок</types>
@@ -17,12 +20,19 @@
     <types>InformationRegisterRecordSet.ОбработчикиОбновления</types>
     <types>InformationRegisterRecordSet.ИерархияГруппПользователей</types>
     <types>InformationRegisterRecordSet.ДлительныеОперации</types>
+    <types>InformationRegisterRecordSet.ЗависимостиПравДоступа</types>
     <types>InformationRegisterRecordSet.ПараметрыРаботыПрограммы</types>
+    <types>InformationRegisterRecordSet.ПараметрыОграниченияДоступа</types>
     <types>InformationRegisterRecordSet.БезопасноеХранилищеДанныхОбластейДанных</types>
     <types>InformationRegisterRecordSet.ПараметрыРаботыВерсийРасширений</types>
     <types>InformationRegisterRecordSet.ОтправленныеСерверныеОповещения</types>
+    <types>InformationRegisterRecordSet.НастройкиПравОбъектов</types>
     <types>InformationRegisterRecordSet.ИдентификаторыОбъектовВерсийРасширений</types>
+    <types>InformationRegisterRecordSet.ТаблицыГруппДоступа</types>
+    <types>InformationRegisterRecordSet.ПраваРолей</types>
     <types>InformationRegisterRecordSet.ПользовательскиеНастройкиДоступаКОбработкам</types>
+    <types>InformationRegisterRecordSet.ЗначенияГруппДоступа</types>
+    <types>InformationRegisterRecordSet.НаследованиеНастроекПравОбъектов</types>
     <types>InformationRegisterRecordSet.СоставыГруппПользователей</types>
   </source>
   <event>BeforeWrite</event>

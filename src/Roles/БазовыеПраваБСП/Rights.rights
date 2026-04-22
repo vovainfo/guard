@@ -28,11 +28,25 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonCommand.ПраваДоступа</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьДополнительныеОтчетыИОбработки</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.РазблокированиеРеквизитов</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -86,6 +100,13 @@
 		</right>
 		<right>
 			<name>Set</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.НастроитьПрава</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -148,6 +169,13 @@
 	</object>
 	<object>
 		<name>CommonForm.ВопросОбУстановкеВнешнейКомпоненты</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ПраваДоступаУпрощенно</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -237,6 +265,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.НастройкиПравОбъектов</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.Вопрос</name>
 		<right>
 			<name>View</name>
@@ -277,6 +312,13 @@
 		<name>CommonForm.ВыборОбъектовМетаданных</name>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>SessionParameter.ОграничениеДоступаНаУровнеЗаписейУниверсально</name>
+		<right>
+			<name>Get</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -408,6 +450,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.ПраваДоступа</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.СменаПароля</name>
 		<right>
 			<name>View</name>
@@ -452,6 +501,33 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Configuration.Страж</name>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -514,33 +590,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.Страж</name>
-		<right>
-			<name>MainWindowModeNormal</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeEmbeddedWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeFullscreenWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeKiosk</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>AnalyticsSystemClient</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>SessionParameter.ОсновнойЯзык</name>
 		<right>
 			<name>Get</name>
@@ -574,6 +623,17 @@
 	</object>
 	<object>
 		<name>CommonForm.ФормаОтчета</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ПервоеОбновлениеДоступаЗавершилось</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -625,6 +685,17 @@
 	</object>
 	<object>
 		<name>CommonForm.ВспомогательнаяФормаНастроекОтчета</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.ПраваДоступа</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -687,6 +758,17 @@
 	</object>
 	<object>
 		<name>CommonForm.КонтрольДинамическогоОбновления</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ОграничиватьДоступНаУровнеЗаписейУниверсально</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -809,6 +891,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ОграничиватьДоступНаУровнеЗаписей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьРазделениеПоОбластямДанных</name>
 		<right>
 			<name>Read</name>
@@ -867,6 +960,13 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>SessionParameter.ОтключениеОбновленияКлючейДоступа</name>
+		<right>
+			<name>Get</name>
 			<value>true</value>
 		</right>
 	</object>

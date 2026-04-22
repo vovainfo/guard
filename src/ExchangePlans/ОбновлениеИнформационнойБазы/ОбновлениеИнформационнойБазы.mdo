@@ -116,6 +116,18 @@
     <mdObject>Constant.АдресПубликацииИнформационнойБазыВИнтернете</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.КлючиДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НаборыЗначенийДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОбновлениеКлючейДоступаКДанным</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗависимостиПравДоступа</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.РазрешитьДоступКИнтернетСервисам</mdObject>
   </content>
   <content>
@@ -146,7 +158,13 @@
     <mdObject>Catalog.ВерсииРасширений</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.НаследованиеНастроекПравОбъектов</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПраваРолей</mdObject>
   </content>
   <content>
     <mdObject>Catalog.Пользователи</mdObject>
@@ -158,7 +176,13 @@
     <mdObject>Catalog.ПользовательскиеНастройкиОтчетов</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ЗначенияГруппДоступаПоУмолчанию</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ОтложенноеОбновлениеЗавершеноУспешно</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КлючиДоступаВнешнихПользователей</mdObject>
   </content>
   <content>
     <mdObject>Catalog.УчетныеЗаписиЭлектроннойПочты</mdObject>
@@ -171,6 +195,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.СертификатыПолучателейРассылкиОтчетов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КлючиДоступаНаборовГруппДоступа</mdObject>
   </content>
   <content>
     <mdObject>Constant.УдалитьНастройкиВходаПользователей</mdObject>
@@ -188,6 +215,12 @@
     <mdObject>Constant.ИспользоватьГруппыВнешнихПользователей</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ОбновлениеКлючейДоступаТекущиеЗадания</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.КоличествоПотоковОбновленияДоступа</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.СоставыГруппПользователей</mdObject>
   </content>
   <content>
@@ -197,10 +230,19 @@
     <mdObject>InformationRegister.УдалитьБезопасноеХранилищеДанныхОбластейДанных</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ТаблицыГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОбновлениеКлючейДоступаПользователей</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.РассылкиОтчетов</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ДлительныеОперации</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиПравОбъектов</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ДополнительныеОтчетыИОбработки</mdObject>
@@ -209,7 +251,13 @@
     <mdObject>Catalog.ВнешниеПользователи</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ЗначенияГруппДоступа</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.КэшПрограммныхИнтерфейсов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ГруппыЗначенийДоступа</mdObject>
   </content>
   <content>
     <mdObject>Constant.НеИспользоватьРазделениеПоОбластямДанных</mdObject>
@@ -233,6 +281,9 @@
     <mdObject>Constant.СтандартныеПодсистемыВАвтономномРежиме</mdObject>
   </content>
   <content>
+    <mdObject>Constant.ОграничиватьДоступНаУровнеЗаписейУниверсально</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ИспользоватьВнешнихПользователей</mdObject>
   </content>
   <content>
@@ -254,6 +305,9 @@
     <mdObject>Catalog.ОбщиеНастройкиАвторизацииИнтернетСервисов</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ПараметрыОграниченияДоступа</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ПериодическиеСерверныеОповещения</mdObject>
   </content>
   <content>
@@ -264,6 +318,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.ОтправленныеСерверныеОповещения</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОграничиватьДоступНаУровнеЗаписей</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.СвойстваРасширений</mdObject>
@@ -278,10 +335,25 @@
     <mdObject>Constant.СведенияОбОбновленииИБ</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ГруппыДоступа</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.КоличествоПотоковОбновленияИнформационнойБазы</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ИспользуемыеВидыДоступа</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КлючиДоступаКРегистрам</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КлючиДоступаКОбъектам</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.НаборыГруппДоступа</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</mdObject>
@@ -290,13 +362,28 @@
     <mdObject>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.КлючиДоступаПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КлючиДоступаГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИспользуемыеВидыДоступаПоТаблицам</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ПоследнееОбновлениеДоступа</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ОбработчикиОбновленияОбщихДанных</mdObject>
   </content>
   <content>
     <mdObject>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПрофилиГруппДоступа</mdObject>
   </content>
   <content>
     <mdObject>Constant.ИдентификаторИнформационнойБазы</mdObject>

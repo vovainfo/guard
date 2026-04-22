@@ -11,6 +11,7 @@
   <type>
     <types>ConstantValueManager.НеИспользоватьРазделениеПоОбластямДанных</types>
     <types>ConstantValueManager.ИспользоватьГруппыВнешнихПользователей</types>
+    <types>ConstantValueManager.ОграничиватьДоступНаУровнеЗаписей</types>
     <types>ConstantValueManager.ИспользоватьВнешнихПользователей</types>
     <types>ConstantValueManager.ИспользоватьДополнительныеОтчетыИОбработки</types>
     <types>ConstantValueManager.ИспользоватьРазделениеПоОбластямДанных</types>
