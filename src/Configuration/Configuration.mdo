@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e168d15-0b98-470c-8ea0-e055a321499b">
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="851fd6ac-79d7-44cd-9e8d-5a0cf892427b">
   <name>Страж</name>
   <synonym>
     <key>ru</key>
     <value>Страж</value>
   </synonym>
-  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="93ab27d8-3db9-45d7-85bd-3f6fe48560df"/>
-  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="0880be53-a796-41a6-9eef-859ef8f4bea0"/>
-  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9955a0c2-be36-459b-9396-e3ae560dfbbe"/>
-  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="f344b644-2d3b-439f-9dfe-a8708e411e28"/>
-  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f72baace-8d89-43dd-a5f3-3ed193fb09b8"/>
-  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="364a8928-a583-4ae4-96f4-e13082ec09dc"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="19a56754-4ccd-4d67-b902-7ff2d86c6033"/>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f84ce950-6451-4e07-900f-2c8eab9a40b0"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="7223a424-9e72-47e2-a048-85b4cc651a82"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6c86e92b-1198-4cf7-86b9-60fbb11cee7e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="23bbd06c-1a1c-4d76-b4da-6c5c57a2e1dd"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f5d0f1f0-8b3e-492b-ab13-78db9e93f706"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="29ff55f4-5186-494a-a5a0-59f895662d16"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="348fc9e0-ca3c-4797-b812-f02d9cb2566e"/>
   <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
@@ -32,10 +32,10 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <modalityUseMode>DontUse</modalityUseMode>
+  <modalityUseMode>UseWithWarnings</modalityUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.27</compatibilityMode>
-  <languages uuid="afa2d775-5c7a-447e-9af2-7bd236af28ac">
+  <languages uuid="211a08bb-afc5-42a4-9068-440987469e43">
     <name>Русский</name>
     <synonym>
       <key>ru</key>
@@ -43,16 +43,19 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.Страж</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
+  <styleItems>StyleItem.ЗапрещенноеПравоДоступаЦвет</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовВажнаяШрифт</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовОбычнаяШрифт</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет82</styleItems>
   <styleItems>StyleItem.ДобавленныйРеквизитФон</styleItems>
+  <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>
   <styleItems>StyleItem.ЗаблокированныйРеквизитЦвет</styleItems>
   <styleItems>StyleItem.ЗаголовокУдаленногоРеквизитаШрифт</styleItems>
   <styleItems>StyleItem.ИзмененноеЗначениеРеквизитаФон</styleItems>
@@ -60,14 +63,20 @@
   <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
   <styleItems>StyleItem.КонтактнаяИнформацияСРедактированиемВДиалогеЦвет</styleItems>
   <styleItems>StyleItem.МоиВариантыОтчетовЦвет</styleItems>
+  <styleItems>StyleItem.НеназначенноеПравоДоступаЦвет</styleItems>
   <styleItems>StyleItem.ОбразецНастройкиКолонтитуловЦвет</styleItems>
   <styleItems>StyleItem.ОбразецНастройкиКолонтитуловШрифт</styleItems>
   <styleItems>StyleItem.ОсновнойЭлементСписка</styleItems>
   <styleItems>StyleItem.ПользовательВыбранный</styleItems>
   <styleItems>StyleItem.ПоясняющийОшибкуТекст</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ПравоНедействительногоПользователяФон</styleItems>
+  <styleItems>StyleItem.ПравоПросмотраФон</styleItems>
+  <styleItems>StyleItem.ПравоРедактированияФон</styleItems>
+  <styleItems>StyleItem.ПравоСозданияФон</styleItems>
   <styleItems>StyleItem.ПросроченныеДанныеЦвет</styleItems>
   <styleItems>StyleItem.РазделВариантовОтчетовШрифт</styleItems>
+  <styleItems>StyleItem.РазрешенноеПравоДоступаЦвет</styleItems>
   <styleItems>StyleItem.РезультатУспехЦвет</styleItems>
   <styleItems>StyleItem.СкрытыйВариантОтчетаЦвет</styleItems>
   <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
@@ -236,11 +245,17 @@
   <commonPictures>CommonPicture.МетаданныеЯзыки</commonPictures>
   <commonPictures>CommonPicture.Минимум</commonPictures>
   <commonPictures>CommonPicture.НазначенияВариантовОтчетов</commonPictures>
+  <commonPictures>CommonPicture.НаследованиеВключено</commonPictures>
+  <commonPictures>CommonPicture.НаследованиеВключеноСПапкой</commonPictures>
+  <commonPictures>CommonPicture.НаследованиеОтключено</commonPictures>
+  <commonPictures>CommonPicture.НаследованиеОтключеноСПапкой</commonPictures>
   <commonPictures>CommonPicture.НезавершившаясяПроверка</commonPictures>
   <commonPictures>CommonPicture.НетГраницы</commonPictures>
   <commonPictures>CommonPicture.ОбновитьФайлИзФайлаНаДиске</commonPictures>
   <commonPictures>CommonPicture.ОбъединитьЯчейки</commonPictures>
   <commonPictures>CommonPicture.ОбычныйДоступСФлажком</commonPictures>
+  <commonPictures>CommonPicture.ОжидаемаяДлительнаяОперация16</commonPictures>
+  <commonPictures>CommonPicture.ОжидаемаяДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.Органайзер</commonPictures>
   <commonPictures>CommonPicture.Отборы</commonPictures>
   <commonPictures>CommonPicture.Открепить</commonPictures>
@@ -289,8 +304,10 @@
   <commonPictures>CommonPicture.ПроверитьФормулу</commonPictures>
   <commonPictures>CommonPicture.ПрочиеПользовательскиеНастройки</commonPictures>
   <commonPictures>CommonPicture.Пустая</commonPictures>
+  <commonPictures>CommonPicture.РазделАдминистрирование</commonPictures>
   <commonPictures>CommonPicture.РазделАдминистрирование48</commonPictures>
   <commonPictures>CommonPicture.РазорватьСоединение</commonPictures>
+  <commonPictures>CommonPicture.РазрешитьРедактированиеРеквизитовОбъекта</commonPictures>
   <commonPictures>CommonPicture.Рассчитать</commonPictures>
   <commonPictures>CommonPicture.РассылкаОтчетов</commonPictures>
   <commonPictures>CommonPicture.РасширениеКонфигурацииИзГлавногоУзла</commonPictures>
@@ -367,6 +384,23 @@
   <commonPictures>CommonPicture.ТолстаяГраницаСнизу</commonPictures>
   <commonPictures>CommonPicture.УвеличитьШрифт</commonPictures>
   <commonPictures>CommonPicture.УменьшитьШрифт</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаАдминистрированиеИсточника</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаДобавлениеБезПросмотраИРедактированияИСоздания</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаДобавлениеБезРедактированияИСоздания</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаДобавлениеБезСоздания</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаЕстьПраво</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаИзменениеБезПросмотраИРедактирования</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаИзменениеБезРедактирования</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаИспользование</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаИспользованиеИАдминистрированиеИсточника</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаИспользованиеИсточника</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаПолучение</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаПолучениеИУстановка</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаПросмотр</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаРедактирование</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаСоздание</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаУстановка</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаЧтениеБезПросмотра</commonPictures>
   <commonPictures>CommonPicture.Успешно</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
   <commonPictures>CommonPicture.Факс</commonPictures>
@@ -392,22 +426,45 @@
   <commonPictures>CommonPicture.ЯндексКарты</commonPictures>
   <commonPictures>CommonPicture.УдалитьИнформация</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
+  <sessionParameters>SessionParameter.ВидыДоступаСОтключеннымИспользованием</sessionParameters>
+  <sessionParameters>SessionParameter.ВерсииШаблоновОграниченияДоступа</sessionParameters>
+  <sessionParameters>SessionParameter.ВидыДоступаБезГруппДляЗначенияДоступа</sessionParameters>
+  <sessionParameters>SessionParameter.ВсеВидыДоступаКромеСпециальных</sessionParameters>
+  <sessionParameters>SessionParameter.ВидыДоступаСОднойГруппойДляЗначенияДоступа</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
   <sessionParameters>SessionParameter.ВыполняетсяОбновлениеИБ</sessionParameters>
   <sessionParameters>SessionParameter.ДлительныеОперации</sessionParameters>
+  <sessionParameters>SessionParameter.ИдентификаторыТаблицСОтдельнымиНастройкамиПрав</sessionParameters>
   <sessionParameters>SessionParameter.ИнтерактивнаяПроверкаЗаполненияКонтактнойИнформации</sessionParameters>
   <sessionParameters>SessionParameter.КлючДанныхПовторногоИспользования</sessionParameters>
   <sessionParameters>SessionParameter.ОбновлениеСправочниковИдентификаторов</sessionParameters>
   <sessionParameters>SessionParameter.ОбновлениеСправочниковПользователей</sessionParameters>
+  <sessionParameters>SessionParameter.ОбщиеПараметрыШаблоновОграниченияДоступа</sessionParameters>
+  <sessionParameters>SessionParameter.ОграничениеДоступаНаУровнеЗаписейИспользуется</sessionParameters>
+  <sessionParameters>SessionParameter.ОграничениеДоступаНаУровнеЗаписейУниверсально</sessionParameters>
   <sessionParameters>SessionParameter.ОсновнойЯзык</sessionParameters>
+  <sessionParameters>SessionParameter.ОтключениеОбновленияКлючейДоступа</sessionParameters>
   <sessionParameters>SessionParameter.ПараметрыКлиентаНаСервере</sessionParameters>
   <sessionParameters>SessionParameter.ПараметрыОбработчикаОбновления</sessionParameters>
+  <sessionParameters>SessionParameter.ПараметрыОграниченияДоступа</sessionParameters>
   <sessionParameters>SessionParameter.ПодключенныеРасширения</sessionParameters>
   <sessionParameters>SessionParameter.РаботаСВнешнимиРесурсамиЗаблокирована</sessionParameters>
+  <sessionParameters>SessionParameter.РазрешенныйНаборГруппДоступа</sessionParameters>
+  <sessionParameters>SessionParameter.РазрешенныйНаборГруппПользователей</sessionParameters>
+  <sessionParameters>SessionParameter.РазрешенныйПользователь</sessionParameters>
+  <sessionParameters>SessionParameter.РазрешенныйПустойНаборГруппДоступа</sessionParameters>
   <sessionParameters>SessionParameter.РежимыЗапускаВнешнихОтчетовИОбработок</sessionParameters>
+  <sessionParameters>SessionParameter.СпискиСОграничениемПоПолям</sessionParameters>
+  <sessionParameters>SessionParameter.СпискиСОграничениемЧерезКлючиДоступаГруппДоступа</sessionParameters>
+  <sessionParameters>SessionParameter.СпискиСОграничениемЧерезКлючиДоступаПользователей</sessionParameters>
+  <sessionParameters>SessionParameter.СпискиСОтключеннымОграничениемЧтения</sessionParameters>
+  <sessionParameters>SessionParameter.ТаблицыРасширенийСОграничениемДоступа</sessionParameters>
+  <sessionParameters>SessionParameter.ТаблицыСОтдельнымиНастройкамиПрав</sessionParameters>
   <sessionParameters>SessionParameter.ТекущийВнешнийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <sessionParameters>SessionParameter.ТипыВладельцевНастроекПрав</sessionParameters>
+  <sessionParameters>SessionParameter.ТипыЗначенийДоступаСГруппами</sessionParameters>
   <sessionParameters>SessionParameter.УстановленныеРасширения</sessionParameters>
   <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.Администрирование</roles>
@@ -429,12 +486,14 @@
   <roles>Role.ЗапускМобильногоКлиента</roles>
   <roles>Role.ЗапускТолстогоКлиента</roles>
   <roles>Role.ЗапускТонкогоКлиента</roles>
+  <roles>Role.ИзменениеУчастниковГруппДоступа</roles>
   <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
   <roles>Role.ИспользованиеУниверсальногоОтчета</roles>
   <roles>Role.ОбновлениеКонфигурацииБазыДанных</roles>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ПросмотрЖурналаРегистрации</roles>
   <roles>Role.ПросмотрОписанияИзмененийПрограммы</roles>
+  <roles>Role.РедактированиеРеквизитовОбъектов</roles>
   <roles>Role.РежимТехническогоСпециалиста</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
   <roles>Role.УдаленныйДоступБазоваяФункциональность</roles>
@@ -480,6 +539,11 @@
   <commonModules>CommonModule.ЖурналРегистрацииКлиент</commonModules>
   <commonModules>CommonModule.ЗаполнениеОбъектов</commonModules>
   <commonModules>CommonModule.ЗаполнениеОбъектовПереопределяемый</commonModules>
+  <commonModules>CommonModule.ЗапретРедактированияРеквизитовОбъектов</commonModules>
+  <commonModules>CommonModule.ЗапретРедактированияРеквизитовОбъектовКлиент</commonModules>
+  <commonModules>CommonModule.ЗапретРедактированияРеквизитовОбъектовПереопределяемый</commonModules>
+  <commonModules>CommonModule.ЗапретРедактированияРеквизитовОбъектовСлужебный</commonModules>
+  <commonModules>CommonModule.ЗапретРедактированияРеквизитовОбъектовСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСП</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиентПовтИсп</commonModules>
@@ -492,6 +556,9 @@
   <commonModules>CommonModule.КонструкторФормулСлужебный</commonModules>
   <commonModules>CommonModule.НастройкаПорядкаЭлементов</commonModules>
   <commonModules>CommonModule.НастройкаПорядкаЭлементовСлужебный</commonModules>
+  <commonModules>CommonModule.НастройкиПрограммы</commonModules>
+  <commonModules>CommonModule.НастройкиПрограммыКлиент</commonModules>
+  <commonModules>CommonModule.НастройкиПрограммыПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазы</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыБСП</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыВызовСервера</commonModules>
@@ -584,6 +651,13 @@
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСерверРФ</commonModules>
+  <commonModules>CommonModule.УправлениеДоступом</commonModules>
+  <commonModules>CommonModule.УправлениеДоступомПереопределяемый</commonModules>
+  <commonModules>CommonModule.УправлениеДоступомСлужебный</commonModules>
+  <commonModules>CommonModule.УправлениеДоступомСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.УправлениеДоступомСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.УправлениеДоступомСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.УправлениеДоступомСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.УправлениеКолонтитулами</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформацией</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейКлиент</commonModules>
@@ -612,15 +686,22 @@
   <webServices>WebService.InterfaceVersion</webServices>
   <httpServices>HTTPService.ОткрытаяАвторизацияПочтовогоСервиса</httpServices>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЗаписатьЗависимыеНаборыЗначенийДоступа</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЗаписатьНаборыЗначенийДоступа</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПриУдаленииПользователя</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВключитьРегламентноеЗаданиеПриИзмененииФункциональнойОпции</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ДополнительныеОтчетыИОбработкиПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗаполнитьЗначениеРеквизитаУпорядочивания</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЗаполнитьНаборыЗначенийДоступаТабличныхЧастей</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЗаполнитьНаборыЗначенийДоступаТабличныхЧастейДокументов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗаполнитьКонтактнуюИнформацию</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗапретитьУдалениеПредопределенныхЭлементов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.КонтактнаяИнформацияОбработкаПроверкиЗаполнения</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновитьВнешнегоПользователя</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОбновитьГруппыВладельцевНастроекПрав</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОбновитьГруппыЗначенийДоступаПередЗаписью</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОбновитьГруппыЗначенийДоступаПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновитьКонтактнуюИнформацию</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновлениеВерсииИБПередУдалениемСсылочногоОбъекта</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбработкаПредопределенныхЭлементовПередЗаписью</eventSubscriptions>
@@ -631,10 +712,22 @@
   <eventSubscriptions>EventSubscription.ПриПолученииДанныхОтПодчиненного</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПроверитьБезопасныйРежимПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПроверитьБезопасныйРежимПередЗаписьюНабораЗаписи</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПроверитьДоступПередЗаписью</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПроверитьДоступПередЗаписьюДокумента</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПроверитьДоступПередЗаписьюНабораЗаписей</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПроверитьДоступПередЗаписьюНабораЗаписейРегистраРасчета</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПроверитьДоступПередУдалением</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПроверитьДоступПередУдалениемДокумента</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПроверитьДоступПриЗаписи</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПроверитьДоступПриЗаписиДокумента</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПроверитьДоступПриЗаписиНабораЗаписей</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПроверитьДоступПриЗаписиНабораЗаписейРегистраРасчета</eventSubscriptions>
   <eventSubscriptions>EventSubscription.СброситьЗначениеРеквизитаУпорядочивания</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗапускДополнительныхОбработок</scheduledJobs>
   <scheduledJobs>ScheduledJob.ИсправлениеУстаревшихАдресов</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбновлениеДоступаНаУровнеЗаписей</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеПредопределенныхВариантовОтчетов</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаСервисовИнтеграции</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОтложенноеОбновлениеИБ</scheduledJobs>
@@ -651,6 +744,8 @@
   <functionalOptions>FunctionalOption.ИспользоватьГруппыПользователей</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьДополнительныеОбработкиСозданияСвязанныхОбъектов</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьДополнительныеОтчетыИОбработки</functionalOptions>
+  <functionalOptions>FunctionalOption.ОграничиватьДоступНаУровнеЗаписей</functionalOptions>
+  <functionalOptions>FunctionalOption.ОграничиватьДоступНаУровнеЗаписейУниверсально</functionalOptions>
   <functionalOptions>FunctionalOption.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</functionalOptions>
   <functionalOptions>FunctionalOption.ОтложенноеОбновлениеЗавершеноУспешно</functionalOptions>
   <functionalOptions>FunctionalOption.РаботаВЛокальномРежиме</functionalOptions>
@@ -663,14 +758,28 @@
   <functionalOptionsParameters>FunctionalOptionsParameter.ДополнительныеОтчетыИОбработкиОбъектНазначения</functionalOptionsParameters>
   <functionalOptionsParameters>FunctionalOptionsParameter.ДополнительныеОтчетыИОбработкиТипФормы</functionalOptionsParameters>
   <definedTypes>DefinedType.ВариантОбновляемогоОтчета</definedTypes>
+  <definedTypes>DefinedType.ВладелецЗначенийКлючейДоступаНаборЗаписейРегистраРасчета</definedTypes>
+  <definedTypes>DefinedType.ВладелецЗначенийКлючейДоступаНаборЗаписей</definedTypes>
+  <definedTypes>DefinedType.ВладелецЗначенийКлючейДоступаОбъект</definedTypes>
+  <definedTypes>DefinedType.ВладелецВнешнихЗначенийВНаборахЗначенийДоступаОбъект</definedTypes>
+  <definedTypes>DefinedType.ВладелецЗначенийКлючейДоступа</definedTypes>
+  <definedTypes>DefinedType.ВладелецЗначенийКлючейДоступаДокумент</definedTypes>
   <definedTypes>DefinedType.ВладелецКонтактнойИнформации</definedTypes>
+  <definedTypes>DefinedType.ВладелецНаборовЗначенийДоступаОбъект</definedTypes>
+  <definedTypes>DefinedType.ВладелецНастроекПрав</definedTypes>
+  <definedTypes>DefinedType.ВладелецНастроекПравОбъект</definedTypes>
+  <definedTypes>DefinedType.ВладелецСОграничениемПоНаборамЗначенийДоступаДокумент</definedTypes>
+  <definedTypes>DefinedType.ВладелецСОграничениемПоНаборамЗначенийДоступаОбъект</definedTypes>
   <definedTypes>DefinedType.ВнешнийПользователь</definedTypes>
   <definedTypes>DefinedType.ВнешнийПользовательОбъект</definedTypes>
+  <definedTypes>DefinedType.ЗначениеДоступа</definedTypes>
+  <definedTypes>DefinedType.ЗначениеДоступаОбъект</definedTypes>
   <definedTypes>DefinedType.МестоХраненияФункциональныхОпций</definedTypes>
   <definedTypes>DefinedType.ОбъектСДополнительнымиКомандами</definedTypes>
   <definedTypes>DefinedType.ОбъектСНастраиваемымПорядком</definedTypes>
   <definedTypes>DefinedType.Организация</definedTypes>
   <definedTypes>DefinedType.Подразделение</definedTypes>
+  <definedTypes>DefinedType.ПолеРегистраКлючейДоступаКРегистрам</definedTypes>
   <definedTypes>DefinedType.ПолучательРассылки</definedTypes>
   <definedTypes>DefinedType.Пользователь</definedTypes>
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
@@ -678,9 +787,11 @@
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ЗарегистрироватьПриложениеВOAuthСервисе</commonCommands>
+  <commonCommands>CommonCommand.НастроитьПрава</commonCommands>
   <commonCommands>CommonCommand.НастройкаКолонтитулов</commonCommands>
   <commonCommands>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</commonCommands>
   <commonCommands>CommonCommand.ПанельОтчетовАдминистрирование</commonCommands>
+  <commonCommands>CommonCommand.ПраваДоступа</commonCommands>
   <commonCommands>CommonCommand.ПредупрежденияПриЗавершенииРаботы</commonCommands>
   <commonCommands>CommonCommand.СведенияОПользователе</commonCommands>
   <commonCommands>CommonCommand.СменитьПароль</commonCommands>
@@ -705,16 +816,21 @@
   <constants>Constant.КаталогВременныхФайловДляWindows</constants>
   <constants>Constant.КоличествоМесяцевХраненияИсторииРассылкиОтчетов</constants>
   <constants>Constant.КоличествоПотоковДлительныхОпераций</constants>
+  <constants>Constant.КоличествоПотоковОбновленияДоступа</constants>
   <constants>Constant.КоличествоПотоковОбновленияИнформационнойБазы</constants>
   <constants>Constant.НастройкиВходаПользователей</constants>
   <constants>Constant.НастройкиКолонтитулов</constants>
   <constants>Constant.НеИспользоватьРазделениеПоОбластямДанных</constants>
+  <constants>Constant.ОграничиватьДоступНаУровнеЗаписей</constants>
+  <constants>Constant.ОграничиватьДоступНаУровнеЗаписейУниверсально</constants>
   <constants>Constant.ОсновнойЯзык</constants>
   <constants>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</constants>
   <constants>Constant.ОтложенноеОбновлениеЗавершеноУспешно</constants>
   <constants>Constant.ПараметрыАдминистрированияИБ</constants>
   <constants>Constant.ПараметрыБлокировкиРаботыСВнешнимиРесурсами</constants>
+  <constants>Constant.ПервоеОбновлениеДоступаЗавершилось</constants>
   <constants>Constant.ПорядокОбрабатываемыхДанных</constants>
+  <constants>Constant.ПоследнееОбновлениеДоступа</constants>
   <constants>Constant.РазрешитьДоступКИнтернетСервисам</constants>
   <constants>Constant.РегистрироватьПоказателиСерверныхОповещений</constants>
   <constants>Constant.СведенияОБлокируемыхОбъектах</constants>
@@ -745,13 +861,17 @@
   <commonForms>CommonForm.НастройкаКолонтитулов</commonForms>
   <commonForms>CommonForm.НастройкаМоихОтчетовИОбработок</commonForms>
   <commonForms>CommonForm.НастройкиВходаПользователей</commonForms>
+  <commonForms>CommonForm.НастройкиПравОбъектов</commonForms>
   <commonForms>CommonForm.НовыйПароль</commonForms>
   <commonForms>CommonForm.ОписаниеИзмененийПрограммы</commonForms>
   <commonForms>CommonForm.ОтправкаСообщения</commonForms>
   <commonForms>CommonForm.ПанельОтчетов</commonForms>
+  <commonForms>CommonForm.ПраваДоступа</commonForms>
+  <commonForms>CommonForm.ПраваДоступаУпрощенно</commonForms>
   <commonForms>CommonForm.ПредупреждениеБезопасности</commonForms>
   <commonForms>CommonForm.ПредупрежденияПриЗавершенииРаботы</commonForms>
   <commonForms>CommonForm.ПустойРабочийСтол</commonForms>
+  <commonForms>CommonForm.РазблокированиеРеквизитов</commonForms>
   <commonForms>CommonForm.Расширения</commonForms>
   <commonForms>CommonForm.РедактированиеТабличногоДокумента</commonForms>
   <commonForms>CommonForm.СменаПароля</commonForms>
@@ -766,16 +886,20 @@
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
+  <catalogs>Catalog.ГруппыДоступа</catalogs>
   <catalogs>Catalog.ГруппыПользователей</catalogs>
   <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <catalogs>Catalog.КлючиДоступа</catalogs>
+  <catalogs>Catalog.НаборыГруппДоступа</catalogs>
   <catalogs>Catalog.НастройкиАвторизацииИнтернетСервисов</catalogs>
   <catalogs>Catalog.ОбщиеНастройкиАвторизацииИнтернетСервисов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПользовательскиеНастройкиОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
+  <catalogs>Catalog.ПрофилиГруппДоступа</catalogs>
   <catalogs>Catalog.РассылкиОтчетов</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
@@ -787,6 +911,7 @@
   <enums>Enum.ВариантыПредставленияПериода</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
+  <enums>Enum.ДополнительныеЗначенияДоступа</enums>
   <enums>Enum.ДоступныеПериодыОтчета</enums>
   <enums>Enum.НазначенияВариантовОтчетов</enums>
   <enums>Enum.ПериодичностиРасписанийРассылокОтчетов</enums>
@@ -808,11 +933,15 @@
   <enums>Enum.ТипыАккаунтов</enums>
   <enums>Enum.ТипыЭлементовДерева</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
+  <reports>Report.АнализПравДоступа</reports>
   <reports>Report.КонтрольРассылкиОтчетов</reports>
   <reports>Report.ПользователиПоПодразделениям</reports>
+  <reports>Report.ПраваДоступа</reports>
+  <reports>Report.ПраваРолей</reports>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.УчастникиГруппДоступа</reports>
   <reports>Report.УчастникиГруппПользователей</reports>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
@@ -820,6 +949,7 @@
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>
   <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>
   <dataProcessors>DataProcessor.ОписаниеОбработчиковОбновления</dataProcessors>
+  <dataProcessors>DataProcessor.ПанельАдминистрированияБСП</dataProcessors>
   <dataProcessors>DataProcessor.РасширенныйВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
@@ -829,21 +959,41 @@
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
+  <informationRegisters>InformationRegister.ГруппыЗначенийДоступа</informationRegisters>
   <informationRegisters>InformationRegister.ДлительныеОперации</informationRegisters>
+  <informationRegisters>InformationRegister.ЗависимостиПравДоступа</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияГруппДоступа</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияГруппДоступаПоУмолчанию</informationRegisters>
   <informationRegisters>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.ИерархияГруппПользователей</informationRegisters>
+  <informationRegisters>InformationRegister.ИспользуемыеВидыДоступа</informationRegisters>
+  <informationRegisters>InformationRegister.ИспользуемыеВидыДоступаПоТаблицам</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияРассылкиОтчетов</informationRegisters>
+  <informationRegisters>InformationRegister.КлючиДоступаВнешнихПользователей</informationRegisters>
+  <informationRegisters>InformationRegister.КлючиДоступаГруппДоступа</informationRegisters>
+  <informationRegisters>InformationRegister.КлючиДоступаКОбъектам</informationRegisters>
+  <informationRegisters>InformationRegister.КлючиДоступаКРегистрам</informationRegisters>
+  <informationRegisters>InformationRegister.КлючиДоступаНаборовГруппДоступа</informationRegisters>
+  <informationRegisters>InformationRegister.КлючиДоступаПользователей</informationRegisters>
   <informationRegisters>InformationRegister.КэшПрограммныхИнтерфейсов</informationRegisters>
+  <informationRegisters>InformationRegister.НаборыЗначенийДоступа</informationRegisters>
   <informationRegisters>InformationRegister.НазначениеДополнительныхОбработок</informationRegisters>
+  <informationRegisters>InformationRegister.НаследованиеНастроекПравОбъектов</informationRegisters>
   <informationRegisters>InformationRegister.НастройкиВариантовОтчетов</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиПравОбъектов</informationRegisters>
+  <informationRegisters>InformationRegister.ОбновлениеКлючейДоступаКДанным</informationRegisters>
+  <informationRegisters>InformationRegister.ОбновлениеКлючейДоступаПользователей</informationRegisters>
+  <informationRegisters>InformationRegister.ОбновлениеКлючейДоступаТекущиеЗадания</informationRegisters>
   <informationRegisters>InformationRegister.ОбработчикиОбновления</informationRegisters>
   <informationRegisters>InformationRegister.ОбработчикиОбновленияОбщихДанных</informationRegisters>
   <informationRegisters>InformationRegister.ОтправленныеСерверныеОповещения</informationRegisters>
+  <informationRegisters>InformationRegister.ПараметрыОграниченияДоступа</informationRegisters>
   <informationRegisters>InformationRegister.ПараметрыРаботыВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.ПараметрыРаботыПрограммы</informationRegisters>
   <informationRegisters>InformationRegister.ПериодическиеСерверныеОповещения</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</informationRegisters>
   <informationRegisters>InformationRegister.ПотокиОбновления</informationRegisters>
+  <informationRegisters>InformationRegister.ПраваРолей</informationRegisters>
   <informationRegisters>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.ПрогрессОбновления</informationRegisters>
   <informationRegisters>InformationRegister.СведенияОПользователях</informationRegisters>
@@ -852,6 +1002,7 @@
   <informationRegisters>InformationRegister.СнимкиОтчетов</informationRegisters>
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияРассылокОтчетов</informationRegisters>
+  <informationRegisters>InformationRegister.ТаблицыГруппДоступа</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьБезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
 </mdclass:Configuration>

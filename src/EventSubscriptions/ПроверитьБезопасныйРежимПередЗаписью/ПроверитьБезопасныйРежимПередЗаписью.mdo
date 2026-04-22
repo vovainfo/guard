@@ -17,18 +17,23 @@
     <types>ConstantValueManager.НастройкиВходаПользователей</types>
     <types>CatalogObject.РассылкиОтчетов</types>
     <types>ConstantValueManager.СостояниеОтправкиСерверныхОповещений</types>
+    <types>CatalogObject.ПрофилиГруппДоступа</types>
     <types>CatalogObject.ПредопределенныеВариантыОтчетовРасширений</types>
     <types>CatalogObject.ИдентификаторыОбъектовРасширений</types>
+    <types>ConstantValueManager.ОграничиватьДоступНаУровнеЗаписей</types>
     <types>ConstantValueManager.ПараметрыБлокировкиРаботыСВнешнимиРесурсами</types>
     <types>ConstantValueManager.ЗаголовокСистемы</types>
     <types>ConstantValueManager.СтандартныеПодсистемыВАвтономномРежиме</types>
     <types>ConstantValueManager.СведенияОБлокируемыхОбъектах</types>
+    <types>ConstantValueManager.ОграничиватьДоступНаУровнеЗаписейУниверсально</types>
     <types>ConstantValueManager.КаталогВременныхФайловДляWindows</types>
     <types>ConstantValueManager.ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</types>
+    <types>ConstantValueManager.ПоследнееОбновлениеДоступа</types>
     <types>ConstantValueManager.АдресПубликацииИнформационнойБазыВЛокальнойСети</types>
     <types>ConstantValueManager.РегистрироватьПоказателиСерверныхОповещений</types>
     <types>ConstantValueManager.ИспользоватьВнешнихПользователей</types>
     <types>ConstantValueManager.ПараметрыАдминистрированияИБ</types>
+    <types>ConstantValueManager.ПервоеОбновлениеДоступаЗавершилось</types>
     <types>ConstantValueManager.ИспользоватьДополнительныеОтчетыИОбработки</types>
     <types>ConstantValueManager.СведенияОбОбновленииИБ</types>
     <types>ConstantValueManager.АдресПубликацииИнформационнойБазыВИнтернете</types>
@@ -40,8 +45,10 @@
     <types>CatalogObject.ПредопределенныеВариантыОтчетов</types>
     <types>ConstantValueManager.ИспользоватьГруппыПользователей</types>
     <types>CatalogObject.ВнешниеПользователи</types>
+    <types>CatalogObject.ГруппыДоступа</types>
     <types>CatalogObject.ВерсииРасширений</types>
     <types>ConstantValueManager.ИдентификаторИнформационнойБазы</types>
+    <types>CatalogObject.КлючиДоступа</types>
     <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
     <types>ConstantValueManager.ПорядокОбрабатываемыхДанных</types>
     <types>CatalogObject.ГруппыПользователей</types>
