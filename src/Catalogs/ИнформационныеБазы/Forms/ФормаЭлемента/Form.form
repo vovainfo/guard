@@ -300,6 +300,14 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <choiceParameters>
+        <name>Отбор.ТипАккаунта</name>
+        <value xsi:type="form:FormChoiceListDesTimeValue">
+          <value xsi:type="core:ReferenceValue">
+            <value>Enum.ТипыАккаунтов.EnumValue.АдминБазы</value>
+          </value>
+        </value>
+      </choiceParameters>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
