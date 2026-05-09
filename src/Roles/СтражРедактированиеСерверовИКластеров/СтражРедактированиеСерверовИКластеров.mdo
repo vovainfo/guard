@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8600534-8915-4300-9be3-6f060886868c">
+  <name>СтражРедактированиеСерверовИКластеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страж редактирование серверов и кластеров</value>
+  </synonym>
+</mdclass:Role>

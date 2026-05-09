@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a7ed084-7b61-4cc3-a632-d1d4d83378ec">
+  <name>СтражПросмотрСкрытых</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страж просмотр скрытых</value>
+  </synonym>
+</mdclass:Role>

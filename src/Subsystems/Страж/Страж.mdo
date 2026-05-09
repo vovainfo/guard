@@ -14,4 +14,9 @@
   <content>Catalog.ИнформационныеБазы</content>
   <content>Catalog.Кластеры</content>
   <content>DataProcessor.ДеревоИБ</content>
+  <content>CommonModule.ОбщегоНазначенияСтраж</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыСтраж</content>
+  <content>Enum.ТипыЭлементовДерева</content>
+  <content>Role.СтражБазовая</content>
+  <content>Role.СтражПросмотрСкрытых</content>
 </mdclass:Subsystem>

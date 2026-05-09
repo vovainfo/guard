@@ -502,6 +502,9 @@
   <roles>Role.ЧтениеДополнительныхОтчетовИОбработок</roles>
   <roles>Role.ЧтениеРассылокОтчетов</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
+  <roles>Role.СтражБазовая</roles>
+  <roles>Role.СтражРедактированиеСерверовИКластеров</roles>
+  <roles>Role.СтражПросмотрСкрытых</roles>
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
