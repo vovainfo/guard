@@ -4600,6 +4600,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <savedData>true</savedData>
   </attributes>
   <attributes>
     <name>РайонИностранногоАдреса</name>
@@ -4618,6 +4619,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <savedData>true</savedData>
   </attributes>
   <attributes>
     <name>ВнутригородскойРайонИностранногоАдреса</name>
@@ -4636,6 +4638,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <savedData>true</savedData>
   </attributes>
   <formCommands>
     <name>КомандаОК</name>

@@ -48,16 +48,16 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.Страж</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
-  <styleItems>StyleItem.ЗапрещенноеПравоДоступаЦвет</styleItems>
+  <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовВажнаяШрифт</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовОбычнаяШрифт</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет82</styleItems>
   <styleItems>StyleItem.ДобавленныйРеквизитФон</styleItems>
-  <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>
   <styleItems>StyleItem.ЗаблокированныйРеквизитЦвет</styleItems>
   <styleItems>StyleItem.ЗаголовокУдаленногоРеквизитаШрифт</styleItems>
+  <styleItems>StyleItem.ЗапрещенноеПравоДоступаЦвет</styleItems>
   <styleItems>StyleItem.ИзмененноеЗначениеРеквизитаФон</styleItems>
   <styleItems>StyleItem.ИзмененноеЗначениеРеквизитаЦвет</styleItems>
   <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
@@ -426,13 +426,13 @@
   <commonPictures>CommonPicture.ЯндексКарты</commonPictures>
   <commonPictures>CommonPicture.УдалитьИнформация</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
-  <sessionParameters>SessionParameter.ВидыДоступаСОтключеннымИспользованием</sessionParameters>
-  <sessionParameters>SessionParameter.ВерсииШаблоновОграниченияДоступа</sessionParameters>
-  <sessionParameters>SessionParameter.ВидыДоступаБезГруппДляЗначенияДоступа</sessionParameters>
-  <sessionParameters>SessionParameter.ВсеВидыДоступаКромеСпециальных</sessionParameters>
-  <sessionParameters>SessionParameter.ВидыДоступаСОднойГруппойДляЗначенияДоступа</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
+  <sessionParameters>SessionParameter.ВерсииШаблоновОграниченияДоступа</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
+  <sessionParameters>SessionParameter.ВидыДоступаБезГруппДляЗначенияДоступа</sessionParameters>
+  <sessionParameters>SessionParameter.ВидыДоступаСОднойГруппойДляЗначенияДоступа</sessionParameters>
+  <sessionParameters>SessionParameter.ВидыДоступаСОтключеннымИспользованием</sessionParameters>
+  <sessionParameters>SessionParameter.ВсеВидыДоступаКромеСпециальных</sessionParameters>
   <sessionParameters>SessionParameter.ВыполняетсяОбновлениеИБ</sessionParameters>
   <sessionParameters>SessionParameter.ДлительныеОперации</sessionParameters>
   <sessionParameters>SessionParameter.ИдентификаторыТаблицСОтдельнымиНастройкамиПрав</sessionParameters>
@@ -690,16 +690,16 @@
   <webServices>WebService.InterfaceVersion</webServices>
   <httpServices>HTTPService.ОткрытаяАвторизацияПочтовогоСервиса</httpServices>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ЗаписатьЗависимыеНаборыЗначенийДоступа</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ЗаписатьНаборыЗначенийДоступа</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПриУдаленииПользователя</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВключитьРегламентноеЗаданиеПриИзмененииФункциональнойОпции</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ДополнительныеОтчетыИОбработкиПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЗаписатьЗависимыеНаборыЗначенийДоступа</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЗаписатьНаборыЗначенийДоступа</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗаполнитьЗначениеРеквизитаУпорядочивания</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЗаполнитьКонтактнуюИнформацию</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗаполнитьНаборыЗначенийДоступаТабличныхЧастей</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗаполнитьНаборыЗначенийДоступаТабличныхЧастейДокументов</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ЗаполнитьКонтактнуюИнформацию</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗапретитьУдалениеПредопределенныхЭлементов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.КонтактнаяИнформацияОбработкаПроверкиЗаполнения</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновитьВнешнегоПользователя</eventSubscriptions>
@@ -727,8 +727,8 @@
   <eventSubscriptions>EventSubscription.ПроверитьДоступПриЗаписиНабораЗаписей</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПроверитьДоступПриЗаписиНабораЗаписейРегистраРасчета</eventSubscriptions>
   <eventSubscriptions>EventSubscription.СброситьЗначениеРеквизитаУпорядочивания</eventSubscriptions>
-  <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗапускДополнительныхОбработок</scheduledJobs>
   <scheduledJobs>ScheduledJob.ИсправлениеУстаревшихАдресов</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеДоступаНаУровнеЗаписей</scheduledJobs>
@@ -762,12 +762,12 @@
   <functionalOptionsParameters>FunctionalOptionsParameter.ДополнительныеОтчетыИОбработкиОбъектНазначения</functionalOptionsParameters>
   <functionalOptionsParameters>FunctionalOptionsParameter.ДополнительныеОтчетыИОбработкиТипФормы</functionalOptionsParameters>
   <definedTypes>DefinedType.ВариантОбновляемогоОтчета</definedTypes>
-  <definedTypes>DefinedType.ВладелецЗначенийКлючейДоступаНаборЗаписейРегистраРасчета</definedTypes>
-  <definedTypes>DefinedType.ВладелецЗначенийКлючейДоступаНаборЗаписей</definedTypes>
-  <definedTypes>DefinedType.ВладелецЗначенийКлючейДоступаОбъект</definedTypes>
   <definedTypes>DefinedType.ВладелецВнешнихЗначенийВНаборахЗначенийДоступаОбъект</definedTypes>
   <definedTypes>DefinedType.ВладелецЗначенийКлючейДоступа</definedTypes>
   <definedTypes>DefinedType.ВладелецЗначенийКлючейДоступаДокумент</definedTypes>
+  <definedTypes>DefinedType.ВладелецЗначенийКлючейДоступаНаборЗаписей</definedTypes>
+  <definedTypes>DefinedType.ВладелецЗначенийКлючейДоступаНаборЗаписейРегистраРасчета</definedTypes>
+  <definedTypes>DefinedType.ВладелецЗначенийКлючейДоступаОбъект</definedTypes>
   <definedTypes>DefinedType.ВладелецКонтактнойИнформации</definedTypes>
   <definedTypes>DefinedType.ВладелецНаборовЗначенийДоступаОбъект</definedTypes>
   <definedTypes>DefinedType.ВладелецНастроекПрав</definedTypes>
@@ -936,8 +936,8 @@
   <enums>Enum.ВидыХраненияАккаунтов</enums>
   <enums>Enum.ТипыАккаунтов</enums>
   <enums>Enum.ТипыЭлементовДерева</enums>
-  <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.АнализПравДоступа</reports>
+  <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.КонтрольРассылкиОтчетов</reports>
   <reports>Report.ПользователиПоПодразделениям</reports>
   <reports>Report.ПраваДоступа</reports>
@@ -962,8 +962,8 @@
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
-  <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
   <informationRegisters>InformationRegister.ГруппыЗначенийДоступа</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
   <informationRegisters>InformationRegister.ДлительныеОперации</informationRegisters>
   <informationRegisters>InformationRegister.ЗависимостиПравДоступа</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияГруппДоступа</informationRegisters>
