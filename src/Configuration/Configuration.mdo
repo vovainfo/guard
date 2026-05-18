@@ -505,6 +505,7 @@
   <roles>Role.СтражБазовая</roles>
   <roles>Role.СтражРедактированиеСерверовИКластеров</roles>
   <roles>Role.СтражПросмотрСкрытых</roles>
+  <roles>Role.СтражУправлениеБлокировками</roles>
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>

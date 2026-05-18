@@ -19,4 +19,5 @@
   <content>Enum.ТипыЭлементовДерева</content>
   <content>Role.СтражБазовая</content>
   <content>Role.СтражПросмотрСкрытых</content>
+  <content>Role.СтражУправлениеБлокировками</content>
 </mdclass:Subsystem>
